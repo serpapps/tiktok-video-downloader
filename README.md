@@ -20,7 +20,7 @@ A simple and fast browser extension to download any TikTok video without a water
 
 ## Tiktok Videos
 
-TikTok relies on a sophisticated tech stack to deliver its massive stream of video content. It uses a microservices architecture, leveraging databases like PostgreSQL, Cassandra, and Redis to manage its vast amount of data. To ensure fast and smooth video playback globally, TikTok utilizes a global Content Delivery Network (CDN) and employs video codecs such as H.264 and H.265, with HTTP Live Streaming (HLS) for adaptive streaming. 
+Downloading from TikTok presents a unique challenge: the watermark. TikTok dynamically applies a watermark to its videos, which is not part of the original file but is overlaid during the download process initiated from their app. To provide a clean, watermark-free video, this extension must intercept the original video data *before* this overlay is applied. It works by analyzing the network requests made by the TikTok web player to identify the raw video source URL, which is often temporary and obfuscated, allowing for a direct download of the pristine video file.
 
 ## Use Cases
 
