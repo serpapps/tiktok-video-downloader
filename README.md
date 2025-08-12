@@ -7,10 +7,10 @@ Download Tiktok videos, images, audio, profiles, and more for offline enjoyment 
 
 ## 🔗 Links
 
-- 🎁 Get it [here](https://serp.ly/tiktok-downloader)
+- 🎁 Get it [here](https://serp.ly/tiktok-video-downloader)
 - ❓ Check FAQs [here](https://github.com/orgs/serpapps/discussions/categories/faq)
-- 🐛 Report bugs [here](https://github.com/serpapps/tiktok-downloader/issues)
-- 🆕 Request features [here](https://github.com/serpapps/tiktok-downloader/issues)
+- 🐛 Report bugs [here](https://github.com/serpapps/tiktok-video-downloader/issues)
+- 🆕 Request features [here](https://github.com/serpapps/tiktok-video-downloader/issues)
 
 ## Resources
 
