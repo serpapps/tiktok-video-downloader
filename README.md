@@ -6,7 +6,7 @@ A simple browser extension for fast downloads of any TikTok video without a wate
 
 ## 🔗 Links
 
-- 🎁 Get it [here](https://serp.ly/tiktok-video-downloader)
+- 👉 Get it [here](https://serp.ly/tiktok-video-downloader)
 - ❓ Get help [here](https://github.com/orgs/serpapps/discussions/categories/faq)
 - 🐛 Report bugs [here](https://github.com/serpapps/tiktok-video-downloader/issues)
 - 🆕 Request features [here](https://github.com/serpapps/tiktok-video-downloader/issues)
