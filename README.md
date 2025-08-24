@@ -24,6 +24,8 @@ Downloading from TikTok presents a unique challenge: the watermark. TikTok dynam
 
 It works by analyzing the network requests made by the TikTok web player to identify the raw video source URL, which is often temporary and obfuscated, allowing for a direct download of the pristine video file.
 
+
+
 ## Use Cases
 
 - **Offline Viewing:** Download videos to watch on the go without an internet connection. [4]
@@ -32,6 +34,56 @@ It works by analyzing the network requests made by the TikTok web player to iden
 - **Sharing:** Share videos directly with friends and family on other platforms.
 
 ## Features
+
+# TikTok Video Downloader - Supported Video Types
+
+| Video Type             | Platform                | Download Method        | Status     | Notes                              |
+| ---------------------- | ----------------------- | ---------------------- | ---------- | ---------------------------------- |
+| **Single Videos**      | TikTok video pages      | Web extraction         | ✅ Works   | Individual video downloads only    |
+| **Feed Videos**        | TikTok homepage feed    | Overlay detection      | ✅ Works   | Scroll-based overlay system        |
+| **Profile Videos**     | User profile pages      | Grid detection         | ✅ Works   | Video grid overlay buttons         |
+| **Music Page Videos**  | Music/sound pages       | Preview extraction     | ✅ Works   | Music page video previews          |
+| **Recommended Videos** | "You may like" sections | Container detection    | ✅ Works   | Suggested video sections           |
+| **Multiple Formats**   | All TikTok videos       | Format preference      | ✅ Works   | Tries multiple quality options     |
+| **Watermarked Videos** | Download addresses      | Direct extraction      | ✅ Works   | Lower priority, may have watermark |
+| **Logged-out Access**  | Public TikTok content   | Cookie-less extraction | ⚠️ Limited | May fail without TikTok cookies    |
+
+## Supported Formats
+
+- **MP4** (Primary format from TikTok CDN)
+- **Multiple bitrates** (Highest quality preferred)
+- **Watermark handling** (Prefers non-watermarked when available)
+
+## Requirements
+
+- Chrome/Chromium browser only
+- Valid license key required
+- TikTok cookies recommended (better success rate)
+- One video at a time (no batch downloads)
+
+## Supported TikTok URLs
+
+- Single video pages: `https://www.tiktok.com/@username/video/1234567890123456789`
+- User profiles: `https://www.tiktok.com/@username`
+- Music pages: `https://www.tiktok.com/music/[music-id]`
+- Homepage feed: `https://www.tiktok.com/`
+- Category pages: `https://www.tiktok.com/tag/[hashtag]`
+
+## User Interface
+
+- **Overlay system** - Download buttons appear directly on videos
+- **Visual indicators** - Green checkmark (downloadable) vs red X (blocked)
+- **Smart positioning** - Overlays adapt to TikTok's responsive design
+- **Toggle control** - Enable/disable overlay system via popup
+
+## Important Limitations
+
+- **No bulk downloads** - Each video must be downloaded individually
+- **No format selection** - Automatically chooses best available quality
+- **No download history** - No record of previously downloaded videos
+- **Web extraction dependency** - May break if TikTok changes their page structure
+- **License required** - Functionality blocked without valid license key
+- **Chrome only** - No support for other browsers
 
 
 <!-- ## Screenshots -->
