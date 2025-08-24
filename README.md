@@ -2,7 +2,7 @@
 
 A simple browser extension for fast downloads of any TikTok video without a watermark. Save your favorite moments, create compilations, or watch offline anytime.
 
-![tiktok video downloader](https://github.com/user-attachments/assets/b8d6ee7b-ef1e-4478-819e-0922ee771acc)
+![tiktok video downloader](https://raw.githubusercontent.com/serpapps/tiktok-video-downloader/refs/heads/assets/images/tiktok-downloader.gif)
 
 ## 🔗 Links
 
