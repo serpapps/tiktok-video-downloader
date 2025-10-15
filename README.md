@@ -17,10 +17,11 @@ A simple browser extension for fast downloads of any TikTok video without a wate
 - 💌 [Newsletter](https://serp.ly/@serp/email)
 - 🛒 [Shop](https://serp.ly/@serp/store)
 - 🎓 [Courses](https://serp.ly/@serp/courses)
+- https://gist.github.com/devinschumacher/86d2843f0e1f150d79356494bc0b1a1a
 
 ## Downloading Tiktok Videos
 
-Downloading from TikTok presents a unique challenge: the watermark. TikTok dynamically applies a watermark to its videos, which is not part of the original file but is overlaid during the download process initiated from their app. To provide a clean, watermark-free video, this extension must intercept the original video data *before* this overlay is applied. 
+Downloading video from TikTok presents a unique challenge: the watermark. TikTok dynamically applies a watermark to its videos, which is not part of the original file but is overlaid during the download process initiated from their app. To provide a clean, watermark-free video, this extension must intercept the original video data *before* this overlay is applied. 
 
 It works by analyzing the network requests made by the TikTok web player to identify the raw video source URL, which is often temporary and obfuscated, allowing for a direct download of the pristine video file.
 
@@ -94,36 +95,34 @@ It works by analyzing the network requests made by the TikTok web player to iden
 ## Permissions Justifications
 
 
-
-
 <details>
   <summary> TAGS 🏷️ </summary>
 
-how to download all your tiktok videos at once
-how to download saved tiktok videos
-how to download tiktok audio
-how to download tiktok on android phone
-how to download tiktok profile picture
-how to download tiktok sounds
-how to download tiktok video from link
-how to download tiktok videos
-how to download tiktok videos on pc
-how to download tiktok videos without watermark
-how to use vpn to download tiktok
-tiktok audio downloader
-tiktok downloader
-tiktok downloader extension
-tiktok downloader hd
-tiktok downloader mp3
-tiktok downloader no watermark
-tiktok downloader online
-tiktok link downloader
-tiktok live downloader
-tiktok pfp downloader
-tiktok photo downloader
-tiktok profile picture downloader
-tiktok slideshow downloader
-tiktok story downloader
-tiktok video downloader
+- how to download all your tiktok videos at once
+- how to download saved tiktok videos
+- how to download tiktok audio
+- how to download tiktok on android phone
+- how to download tiktok profile picture
+- how to download tiktok sounds
+- how to download tiktok video from link
+- how to download tiktok videos
+- how to download tiktok videos on pc
+- how to download tiktok videos without watermark
+- how to use vpn to download tiktok
+- tiktok audio downloader
+- tiktok downloader
+- tiktok downloader extension
+- tiktok downloader hd
+- tiktok downloader mp3
+- tiktok downloader no watermark
+- tiktok downloader online
+- tiktok link downloader
+- tiktok live downloader
+- tiktok pfp downloader
+- tiktok photo downloader
+- tiktok profile picture downloader
+- tiktok slideshow downloader
+- tiktok story downloader
+- tiktok video downloader
 
 </details>
