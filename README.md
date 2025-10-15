@@ -17,7 +17,7 @@ A simple browser extension for fast downloads of any TikTok video without a wate
 - 💌 [Newsletter](https://serp.ly/@serp/email)
 - 🛒 [Shop](https://serp.ly/@serp/store)
 - 🎓 [Courses](https://serp.ly/@serp/courses)
-- https://gist.github.com/devinschumacher/86d2843f0e1f150d79356494bc0b1a1a
+
 
 ## Downloading Tiktok Videos
 
@@ -25,7 +25,8 @@ Downloading video from TikTok presents a unique challenge: the watermark. TikTok
 
 It works by analyzing the network requests made by the TikTok web player to identify the raw video source URL, which is often temporary and obfuscated, allowing for a direct download of the pristine video file.
 
-
+- [How to Download TikTok Videos](https://gist.github.com/devinschumacher/86d2843f0e1f150d79356494bc0b1a1a)
+- [How to Download TikTok Audio (Music, Audio, etc.) from Videos](https://gist.github.com/devinschumacher/849135d124379f0865f75e17db05f1d5)
 
 ## Use Cases
 
