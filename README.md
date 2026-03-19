@@ -1,129 +1,86 @@
-# Tiktok Video Downloader
+# TikTok Downloader — Save TikTok Videos as MP4, No Watermarks
 
-A simple browser extension for fast downloads of any TikTok video without a watermark. Save your favorite moments, create compilations, or watch offline anytime.
+Download TikTok videos straight from your browser with a single click. Video Downloader for TikTok adds download overlay buttons to every video in your feed, on profile pages, and on individual video pages. Videos save as clean MP4 files with no added watermarks. No extra software, no URL pasting, no third-party sites.
 
-![tiktok video downloader](https://raw.githubusercontent.com/serpapps/tiktok-video-downloader/refs/heads/assets/images/tiktok-downloader.gif)
+**Product page:** [https://serp.ly/tiktok-downloader](https://serp.ly/tiktok-downloader)<br>
+**Help center:** [https://help.serp.co/en/](https://help.serp.co/en/)<br>
+**Latest release:** [https://github.com/serpapps/tiktok-video-downloader/releases/latest](https://github.com/serpapps/tiktok-video-downloader/releases/latest)
 
-## 🔗 Links
+## Why TikTok Downloader
 
-- 👉 Get it [here](https://serp.ly/tiktok-video-downloader)
-- ❓ Get help [here](https://github.com/orgs/serpapps/discussions/categories/faq)
-- 🐛 Report bugs [here](https://github.com/serpapps/tiktok-video-downloader/issues)
-- 🆕 Request features [here](https://github.com/serpapps/tiktok-video-downloader/issues)
+TikTok makes it difficult to save videos directly. The platform loads content dynamically, video URLs shift constantly, and most generic tools either fail outright or force you to paste links into third-party websites that slap watermarks on your files. Video Downloader for TikTok was built specifically for TikTok.com. It detects videos using multiple strategies that adapt to the platform's changing structure, handles all authentication behind the scenes, and downloads directly from the source so your files stay clean.
 
-## Resources
+## Key features
 
-- 💬 [Community](https://serp.ly/@serp/community)
-- 💌 [Newsletter](https://serp.ly/@serp/email)
-- 🛒 [Shop](https://serp.ly/@serp/store)
-- 🎓 [Courses](https://serp.ly/@serp/courses)
+- In-feed download overlay buttons on every video while you browse TikTok
+- Downloads directly from the source with no third-party watermarks
+- Works on your feed, user profiles, hashtag pages, music pages, and single video pages
+- Automatically detects the best available video quality
+- Saves every video as a standard MP4 file
+- Toggle download overlays on or off from the extension popup
+- Adapts to TikTok's changing page structure with multiple detection methods
+- Dark-themed UI styled to match TikTok's interface
+- 3 free trial downloads — no credit card required
 
+## How it works
 
-## Downloading Tiktok Videos
+1. **Install** the extension in your browser
+2. **Browse** TikTok.com normally — scroll your feed, visit profiles, or open any video page
+3. **Click** the download overlay button on any video, or use the extension popup on a video page
+4. **Save** — the video downloads as a clean MP4 file to your computer
 
-Downloading video from TikTok presents a unique challenge: the watermark. TikTok dynamically applies a watermark to its videos, which is not part of the original file but is overlaid during the download process initiated from their app. To provide a clean, watermark-free video, this extension must intercept the original video data *before* this overlay is applied. 
+## Supported formats
 
-It works by analyzing the network requests made by the TikTok web player to identify the raw video source URL, which is often temporary and obfuscated, allowing for a direct download of the pristine video file.
+All downloads are saved as standard MP4 files that play on any device or media player. The extension automatically detects the best quality available from TikTok and downloads at that resolution. No format conversion or extra steps needed.
 
-- [How to Download TikTok Videos](https://gist.github.com/devinschumacher/86d2843f0e1f150d79356494bc0b1a1a)
-- [How to Download TikTok Audio (Music, Audio, etc.) from Videos](https://gist.github.com/devinschumacher/849135d124379f0865f75e17db05f1d5)
+## Who it's for
 
-## Use Cases
+- TikTok users who want to save videos for offline viewing
+- Content creators who need to archive or back up their own TikTok posts
+- Anyone who wants watermark-free downloads without pasting URLs into sketchy websites
+- Non-technical users who prefer a simple browser extension over desktop apps or command-line tools
 
-- **Offline Viewing:** Download videos to watch on the go without an internet connection. [4]
-- **Content Creation:** Easily save videos to use in your own compilations, edits, or reaction videos.
-- **Archiving:** Keep a personal collection of your favorite TikToks, or archive your own content. [4]
-- **Sharing:** Share videos directly with friends and family on other platforms.
+## Common use cases
 
-## Features
+- Save TikTok videos to watch offline on any device
+- Download your own content from TikTok for repurposing or backup
+- Archive videos from your feed before they get removed
+- Browse and download in one step using in-feed overlay buttons
+- Save videos from hashtag or music pages while discovering new content
 
-# TikTok Video Downloader - Supported Video Types
+## Trial & access
 
-| Video Type             | Platform                | Download Method        | Status     | Notes                              |
-| ---------------------- | ----------------------- | ---------------------- | ---------- | ---------------------------------- |
-| **Single Videos**      | TikTok video pages      | Web extraction         | ✅ Works   | Individual video downloads only    |
-| **Feed Videos**        | TikTok homepage feed    | Overlay detection      | ✅ Works   | Scroll-based overlay system        |
-| **Profile Videos**     | User profile pages      | Grid detection         | ✅ Works   | Video grid overlay buttons         |
-| **Music Page Videos**  | Music/sound pages       | Preview extraction     | ✅ Works   | Music page video previews          |
-| **Recommended Videos** | "You may like" sections | Container detection    | ✅ Works   | Suggested video sections           |
-| **Multiple Formats**   | All TikTok videos       | Format preference      | ✅ Works   | Tries multiple quality options     |
-| **Watermarked Videos** | Download addresses      | Direct extraction      | ✅ Works   | Lower priority, may have watermark |
-| **Logged-out Access**  | Public TikTok content   | Cookie-less extraction | ⚠️ Limited | May fail without TikTok cookies    |
+Sign in with your email to unlock 3 free trial downloads. No credit card required. When you are ready for unlimited downloads, purchase a license at [serp.ly/tiktok-downloader](https://serp.ly/tiktok-downloader).
 
-## Supported Formats
+Supported browsers: Chrome, Edge, Brave, Opera, Firefox, Whale, and Yandex.
 
-- **MP4** (Primary format from TikTok CDN)
-- **Multiple bitrates** (Highest quality preferred)
-- **Watermark handling** (Prefers non-watermarked when available)
+## FAQ
 
-## Requirements
+**How do I download a video**
+Browse TikTok normally. Download overlay buttons appear on every video in your feed. Click the button on any video to save it. You can also visit a single video page and use the extension popup.
 
-- Chrome/Chromium browser only
-- Valid license key required
-- TikTok cookies recommended (better success rate)
-- One video at a time (no batch downloads)
+**Do downloads have watermarks**
+No. Unlike third-party download websites, this extension downloads directly from the source, so there are no added watermarks on your files.
 
-## Supported TikTok URLs
+**What format are downloaded videos**
+All videos are saved as standard MP4 files that play on any device or media player.
 
-- Single video pages: `https://www.tiktok.com/@username/video/1234567890123456789`
-- User profiles: `https://www.tiktok.com/@username`
-- Music pages: `https://www.tiktok.com/music/[music-id]`
-- Homepage feed: `https://www.tiktok.com/`
-- Category pages: `https://www.tiktok.com/tag/[hashtag]`
+**What quality will I get**
+The extension automatically detects the best available quality from TikTok and downloads at that resolution.
 
-## User Interface
+**Can I turn off the download overlays**
+Yes. Open the extension popup and toggle "Show Download Overlays" off. You can still download via the popup on any video page.
 
-- **Overlay system** - Download buttons appear directly on videos
-- **Visual indicators** - Green checkmark (downloadable) vs red X (blocked)
-- **Smart positioning** - Overlays adapt to TikTok's responsive design
-- **Toggle control** - Enable/disable overlay system via popup
+**Why isn't the extension finding my video**
+Try scrolling past the video and back, or refresh the page. TikTok loads video data dynamically, so the content needs to fully load before detection kicks in.
 
-## Important Limitations
+**Is my data safe**
+Yes. All video processing happens entirely in your browser. Authentication uses secure OTP verification — no passwords stored. The extension only accesses TikTok pages.
 
-- **No bulk downloads** - Each video must be downloaded individually
-- **No format selection** - Automatically chooses best available quality
-- **No download history** - No record of previously downloaded videos
-- **Web extraction dependency** - May break if TikTok changes their page structure
-- **License required** - Functionality blocked without valid license key
-- **Chrome only** - No support for other browsers
+## Notes
 
+Users are responsible for ensuring they have the right to download content. This extension is intended for downloading content you own or have permission to download.
 
-<!-- ## Screenshots -->
+## Get it
 
-<!-- ## Videos -->
-
-
-## Permissions Justifications
-
-
-<details>
-  <summary> TAGS 🏷️ </summary>
-
-- how to download all your tiktok videos at once
-- how to download saved tiktok videos
-- how to download tiktok audio
-- how to download tiktok on android phone
-- how to download tiktok profile picture
-- how to download tiktok sounds
-- how to download tiktok video from link
-- how to download tiktok videos
-- how to download tiktok videos on pc
-- how to download tiktok videos without watermark
-- how to use vpn to download tiktok
-- tiktok audio downloader
-- tiktok downloader
-- tiktok downloader extension
-- tiktok downloader hd
-- tiktok downloader mp3
-- tiktok downloader no watermark
-- tiktok downloader online
-- tiktok link downloader
-- tiktok live downloader
-- tiktok pfp downloader
-- tiktok photo downloader
-- tiktok profile picture downloader
-- tiktok slideshow downloader
-- tiktok story downloader
-- tiktok video downloader
-
-</details>
+**Start here:** [https://serp.cc/VDM-tiktok-downloader](https://serp.cc/VDM-tiktok-downloader)
