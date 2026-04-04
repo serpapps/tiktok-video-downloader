@@ -1,6 +1,5 @@
 # Tiktok Video Downloader
 
-
 ## Get the extension
 
 **Install here:** [TikTok Downloader](https://serp.ly/tiktok-downloader)
@@ -12,9 +11,8 @@ Use the product page above to get the browser extension and install instructions
 - GitHub repo: https://github.com/serpapps/tiktok-video-downloader
 - Latest release: https://github.com/serpapps/tiktok-video-downloader/releases/latest
 
-A simple browser extension for fast downloads of any TikTok video without a watermark. Save your favorite moments, create compilations, or watch offline anytime.
+![TikTok Downloader](https://raw.githubusercontent.com/serpapps/tiktok-video-downloader/main/images/tiktok-downloader.jpg)
 
-![tiktok video downloader](https://raw.githubusercontent.com/serpapps/tiktok-video-downloader/main/assets/images/tiktok-downloader.gif)
 ## Downloading Tiktok Videos
 
 Downloading video from TikTok presents a unique challenge: the watermark. TikTok dynamically applies a watermark to its videos, which is not part of the original file but is overlaid during the download process initiated from their app. To provide a clean, watermark-free video, this extension must intercept the original video data *before* this overlay is applied. 
