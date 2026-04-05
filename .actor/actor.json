@@ -4,7 +4,7 @@
   "description": "Browser extension for saving TikTok videos directly from your feed, profile, and video pages using your logged-in browser session.",
   "input": "./INPUT_SCHEMA.json",
   "name": "tiktok-downloader",
-  "readme": "../ACTOR.md",
+  "readme": "../README.md",
   "title": "TikTok Downloader",
   "version": "0.0"
 }
