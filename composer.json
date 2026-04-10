@@ -1,0 +1,24 @@
+{
+    "name": "serpapps/tiktok-video-downloader",
+    "type": "library",
+    "description": "Download and save your TikTok videos for offline access and backup",
+    "keywords": [
+        "tiktok-video-downloader",
+        "tiktok-downloader",
+        "browser-extension",
+        "social-media-downloader",
+        "short-video-downloader"
+    ],
+    "homepage": "https://github.com/serpapps/tiktok-video-downloader",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SERP Apps",
+            "homepage": "https://github.com/serpapps",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
