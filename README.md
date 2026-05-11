@@ -10,6 +10,12 @@ TikTok Video Downloader is a browser extension built for users who want a cleane
 - Keep the workflow browser-based and simple
 - Avoid manual source tracing through network requests
 
+## Watch The Video
+
+<a href="https://www.youtube.com/watch?v=zxFw4hsfLeU" target="_blank">
+<img src="https://raw.githubusercontent.com/devinschumacher/uploads/refs/heads/main/images/tiktok-downloader-save-videos-before-they-disappear.jpg" width="700px">
+</a>
+
 ## Links
 
 - :rocket: Get it here: [TikTok Video Downloader](https://serp.ly/tiktok-video-downloader)
@@ -20,7 +26,7 @@ TikTok Video Downloader is a browser extension built for users who want a cleane
 
 ## Preview
 
-![TikTok Video Downloader workflow preview](assets/workflow-preview.webp)
+![TikTok Video Downloader workflow preview](https://raw.githubusercontent.com/serpapps/tiktok-video-downloader/refs/heads/main/assets/workflow-preview.webp)
 
 ## Table of Contents
 
