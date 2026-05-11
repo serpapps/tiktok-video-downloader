@@ -1,5 +1,11 @@
 # TikTok Video Downloader (Browser Extension)
 
+## Watch the video
+
+<a href="https://www.youtube.com/watch?v=zxFw4hsfLeU" target="_blank">
+<img src="https://raw.githubusercontent.com/devinschumacher/uploads/refs/heads/main/images/tiktok-downloader-save-videos-before-they-disappear.jpg" width="700px">
+</a>
+
 > Download supported TikTok videos as MP4 files, including workflows that avoid the default watermark save path.
 
 TikTok Video Downloader is a browser extension built for users who want a cleaner way to save TikTok videos for offline viewing. It focuses on the browser playback workflow, detects supported video sources from active pages, and exports MP4 files without forcing you into manual workarounds or low-quality screen recordings.
